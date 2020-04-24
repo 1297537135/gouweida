@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<script src="../js/jquery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/remstyle.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="../css/faxian.css"/>
+		<title></title>
+	</head>
+	<body>
+		<div class="topbox">
+			<div class="topbox-con">
+				<img src="img/fxhh.png"/>
+				
+			</div>
+		</div>
+		<div class="fxbox">
+			<ul>
+				<li><a>精选</a></li>
+				<li><a>直播</a></li>
+				<li><a>视频购</a></li>
+				<li><a>社区</a></li>
+				<li><a>家具生活</a></li>
+				<li><a>生鲜</a></li>
+				<li><a>数码</a></li>
+				<li><a>个人洗护</a></li>
+				
+				
+			</ul>
+		</div>
+		<div class="main-img">
+			<ul class="imgbox">
+				<li><img src="img/fx1.png" /></li>
+				<li><img src="img/fx2.png" /></li>
+				
+				
+			</ul>
+
+		</div>
+		<div class="dybox">
+			<ul>
+				<li>
+					<div class="dycon">
+						<p class="im1"><img src="img/fx3.png"/></p>
+						<p class="ql"><a>轻量科技</a><br><a>11月10日前</a></p>
+						<p class="dy">+ 订阅</p>
+					</div>
+					<div class="dycon2">
+						<img src="img/fx4.png"/>
+						<p><span>时尚女神节    抢五折优惠券转身变女神    你想要的这里都有</span><br><br><span class="liulan">1.1万人浏览  2390件宝贝</span></p>
+					</div>
+					<div class="xian">
+						
+					</div>
+				</li>
+				<li>
+					<div class="dycon">
+						<p class="im1"><img src="img/fx3.png"/></p>
+						<p class="ql"><a>轻量科技</a><br><a>11月10日前</a></p>
+						<p class="dy">+ 订阅</p>
+					</div>
+					<div class="dycon2">
+						<img src="img/fx4.png"/>
+						<p><span>时尚女神节    抢五折优惠券转身变女神    你想要的这里都有</span><br><br><span class="liulan">1.1万人浏览  2390件宝贝</span></p>
+					</div>
+					<div class="xian">
+						
+					</div>
+				</li>
+				<li>
+					<div class="dycon">
+						<p class="im1"><img src="img/fx3.png"/></p>
+						<p class="ql"><a>轻量科技</a><br><a>11月10日前</a></p>
+						<p class="dy">+ 订阅</p>
+					</div>
+					<div class="dycon2">
+						<img src="img/fx4.png"/>
+						<p><span>时尚女神节    抢五折优惠券转身变女神    你想要的这里都有</span><br><br><span class="liulan">1.1万人浏览  2390件宝贝</span></p>
+					</div>
+					<div class="xian">
+						
+					</div>
+				</li>
+				<li>
+					<div class="dycon">
+						<p class="im1"><img src="img/fx3.png"/></p>
+						<p class="ql"><a>轻量科技</a><br><a>11月10日前</a></p>
+						<p class="dy">+ 订阅</p>
+					</div>
+					<div class="dycon2">
+						<img src="img/fx4.png"/>
+						<p><span>时尚女神节    抢五折优惠券转身变女神    你想要的这里都有</span><br><br><span class="liulan">1.1万人浏览  2390件宝贝</span></p>
+					</div>
+					<div class="xian">
+						
+					</div>
+				</li>
+			</ul>
+		</div>
+		<script type="text/javascript">
+			function dsq() {
+				var imglenth = $(".imgbox li").length;
+
+				for(var i = 0; i < imglenth; i++) {
+					$(".imgbox li").eq(i).css({
+						"left": "375*i"
+					})
+					if(!$(".imgbox li").is(":animated")) {
+
+						$(".main-img ul").prepend($(".imgbox li:last-child"))
+						$(".imgbox li:first-child").css({
+							"left": "-375px"
+						})
+						$(".imgbox li").animate({
+							left: '+=375'
+						}, 1000)
+					}
+
+				}
+
+			}
+			setInterval("dsq()", 1000)
+		</script>
+	</body>
+</html>

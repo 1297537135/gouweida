@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.topbox{
+	width: 100%;
+	background-color: #FD7BA1;
+}
+.topbox-con{
+	padding: 1rem 0;
+	position: relative;
+ width: 60%;
+ margin: 0 auto;
+ display: flex;
+ align-items: center;
+ 
+}
+.topbox-con img{
+	left: 2%;
+	width: 8%;
+	position: absolute;
+	
+}
+.topbox-con input{
+	padding-top: 0.2rem;
+	border: 1px solid gray;
+	background-color: #FD9586;
+	padding-left: 10%;
+	height: 2rem;
+	width: 100%;
+	border-radius:1rem ;
+}
+.topbox-con input:focus{
+	outline:#FD7BA1 ;
+}
+.main-img{
+				width: 100%;
+				height: 190px;
+				position: relative;
+				overflow: hidden;
+				
+				
+				
+			}
+			.imgbox{
+				position: relative;
+			}
+			.imgbox li{
+				width: 100%;
+				
+				position: absolute;
+			}
+			.imgbox img{
+				width: 100%;
+				
+			}
+			.meiribox{
+				margin: 3% 0;
+				width: 100%;
+			}
+			.meiri-con{
+				display: flex;
+				justify-content: space-around;
+				width: 90%;
+				margin: 0 auto;
+			}
+			.meiri-con img{
+				width: 10%;
+			}
+			.meiritxt{
+				margin: 0 auto;
+				width: 90%;
+				text-align: center;
+				display: flex;
+				justify-content: space-between;
+			}
+			.meiritxt a{
+				width: 15%;
+				font-size: 1.1rem ;
+				flex: 1;
+				
+			}
+			.wuzhe,.spj{
+				width: 90%;
+				margin: 3% auto;
+				display: flex;
+				justify-content: space-between;
+			}
+			.wuzhe img{
+				width: 47%;
+			}
+			.spj img{
+				width: 20%;
+			}
+			.chz{
+				width: 90%;
+				margin: 0 auto;
+				
+			}
+			.chz img,.qqxx img,.qd img,.jiaju img{
+				margin-top: 3%;
+				width: 100%;
+			}
+			.bls,.blstxt,.jjtxt,.jj,.qqxx,.ysld,.ysldtxt,.qd,.my,.mytxt,.jiaju{
+				width: 90%;
+				margin: 2% auto;
+				display: flex;
+				justify-content: space-between;
+			}
+			.bls img,.ysld img,.my img{
+				width: 20%;
+			}
+			.blstxt p,.ysldtxt p,.mytxt p{
+				font-size: 1rem;
+				width: 20%;
+			}
+			.jjtxt p{
+				text-align: center;
+				font-size: 1rem;
+				width: 22%;
+			}
+			.xj{
+				color: red;
+				font-size: 1.2rem;
+			}
+			.qj{
+				text-decoration: line-through;
+				color: grey;
+			}
+.tstjbox{
+	width: 100%;
+	
+}
+.tstjbox img{
+	width: 100%;
+}
+.tstjcon ul{
+	width: 95%;
+	margin: 0 auto;
+}
+.tstjcon li{
+	display: flex;
+	justify-content: space-between;
+}
+.tstjcon li img{
+	width: 95%;
+}
+.tit{
+	width: 92%;
+	font-size: 1.1rem;
+}
+.money{
+	display: flex;
+	align-items: center;
+	
+}
+.jq1{
+	font-size: 1.5rem;
+	color: red;
+}
+.jq2{
+	font-size: 1.2rem;
+	text-decoration: line-through;
+	color: grey;
+}
+.pl{
+	font-size: 1.2rem;
+	margin-left: 10%;
+	color: grey;
+}

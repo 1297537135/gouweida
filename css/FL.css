@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.topbox{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #FD7BA1;
+}
+.topbox-con{
+	padding: 1rem 0;
+	position: relative;
+ width: 60%;
+ margin: 0 auto;
+ display: flex;
+ align-items: center;
+ 
+}
+.topbox-con img{
+	left: 2%;
+	width: 8%;
+	position: absolute;
+	
+}
+.topbox-con input{
+	padding-top: 0.2rem;
+	border: 1px solid gray;
+	background-color: #FD9586;
+	padding-left: 10%;
+	height: 2rem;
+	width: 100%;
+	border-radius:1rem ;
+}
+.topbox-con input:focus{
+	outline:#FD7BA1 ;
+}
+.box{
+	width: 98%;
+	
+	display: flex;
+	
+	
+}
+.box-l {
+	position: fixed;
+	top: 4.3rem;
+	left: 0;
+	text-align: center;
+	background-color:gainsboro;
+	height: 100%;
+	width: 22%;
+}
+.box-l li{
+	padding: 1rem 0;
+	
+}
+.box-l a{
+	font-size: 1.2rem;
+}
+.box-r{
+	width: 75%;
+	margin-left: 25%;
+	margin-top: 15%;
+}
+.FLTOP {
+	width: 100%;
+}
+.FLIMG{
+	padding:0.6rem 0;
+	display: flex;
+	justify-content: space-around;
+}
+.FLIMG img{
+
+	width: 20%;
+}
+.FLTIT{
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+.FLTIT a{
+	
+	flex: 1;
+}
+#two,#three,#four,#five{
+	margin-bottom: 25%;
+}
